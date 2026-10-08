@@ -1,0 +1,21 @@
+# Do not commit Python virtual environments.
+venv/
+venv-incomplete/
+
+# Do not commit generated Python cache files.
+__pycache__/
+*.py[cod]
+
+# Do not commit environment variables or secrets.
+.env
+.env.*
+!.env.example
+
+# Do not commit macOS metadata.
+.DS_Store
+
+# Do not commit local editor settings.
+.vscode/
+
+# Do not commit generated logs.
+*.log
